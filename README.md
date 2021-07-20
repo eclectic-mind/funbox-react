@@ -15,7 +15,7 @@
 
 ## Ссылка на готовый собранный проект: 
 
-[https://eclectic-mind.github.io/funbox-react-ready/index](https://eclectic-mind.github.io/funbox-react-ready/index)
+[https://eclectic-mind.github.io/funbox-react-ready](https://eclectic-mind.github.io/funbox-react-ready)
 
 ## Запуск в режиме разработки: 
 
