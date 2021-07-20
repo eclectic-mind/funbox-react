@@ -1,12 +1,13 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/main.js",
-  mode: "development",
+  mode: `development`,
+  entry: `./src/main.js`,
   output: {
-    filename: "./bundle.js",
-    chunkFilename: "[name].bundle.js"
+    filename: `bundle.js`,
+    path: path.join(__dirname, `public`)
   },
+  devtool: `source-map`,
   devServer: {
     overlay: true,
     contentBase: path.join(__dirname, "public"),
